@@ -1,0 +1,228 @@
+
+
+.vers-1 > div{
+    background-image: url("Images/WebLayer/7.png");
+    background-repeat: repeat;
+    background-size: 50%;
+    text-align: center;
+    padding: 4%;
+}
+.vers-2 > div{
+    background-image: url("Images/WebLayer/4.png");
+    background-repeat: repeat;
+    background-size: 50%;
+    text-align: center;
+    padding: 4%;
+}
+.vers-3 > div{
+    background-image: url("Images/WebLayer/5.png");
+    background-repeat: repeat;
+    background-size: 50%;
+    text-align: center;
+    padding: 4%;
+}
+
+h1{
+    font-size: 45px;
+}
+
+header nav{
+    float: none;
+    position: relative;
+}
+nav {
+    text-align: center;
+    border: none;
+    background-color: white;
+}
+nav ul{
+    padding: 0px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+header nav button{
+    font-size: 25px;
+    border: none;
+    padding-bottom: 1%;
+    
+}
+button{
+    border: none;
+    background-color: white;
+    padding:none;
+    outline: none;
+    
+}
+main button{
+    padding: 5px;
+    padding-top: 0px;
+}
+button:hover{
+    background-color: lightgray;
+}
+button:focus{
+    outline: none;
+}
+
+a{
+    color: whitesmoke;
+}
+a:hover{
+    color: wheat;
+}
+
+.none{
+    display: none;
+}
+.starting{
+    background-color: #716283;
+    color: #c9a6f2;
+}
+.art{
+    background-color: #caa3c9;
+    color: #202844;
+}
+.pro{
+    background-color: #202844;
+    color: #caa3c9;
+}
+#startQuest{
+    text-align: center;
+    margin: 30px;
+}
+#theFunk{
+    text-align: right;
+    padding: 10px;
+    
+}
+#theFunk button{
+    border-radius: 8px;
+    padding: 5px;
+}
+#theFunk a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#backUp{
+    font-size: 25px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#backUp button{
+    margin: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    color: #716283;
+}
+.centered,.typesOfCommissions div,#examples div{
+    text-align: center;
+}
+
+#artComCont span{
+    display: inline-block;
+}
+
+img{
+    height: 400px; 
+    margin: 10px;
+    text-align: left;
+    
+}
+
+.typesOfCommissions p{
+    padding: 20px;
+}
+
+h3{
+    font-size: 25px;
+}
+ul{
+    display: inline-block;
+    list-style-type: disc;
+}
+
+#proComCont hr{
+    background-color: rgb(84, 102, 119);
+}
+
+@media only screen and (min-width: 50px) {
+    /* For mobile phones: */
+    img{
+        height: 200px; 
+    }
+    #theFunk button{
+        font-size: 8px;
+        border-radius: 4px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+}
+@media only screen and (min-width: 350px) {
+    /* For mobile phones: */
+    img{
+        height: 220px; 
+    }
+    #theFunk button{
+        font-size: 10px;
+        border-radius: 4px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+    
+    
+}
+@media only screen and (min-width: 370px) {
+    /* For mobile phones: */
+    img{
+        height: 240px; 
+    }
+    #theFunk button{
+        font-size: 11px;
+        border-radius: 4px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+    
+}
+@media only screen and (min-width: 400px) {
+    /* For mobile phones: */
+    img{
+        height: 270px; 
+    }
+    #theFunk button{
+        font-size: 13px;
+        border-radius: 5px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+    
+    
+}
+
+@media only screen and (min-width: 750px) {
+    /* For mobile phones: */
+    img{
+        height: 400px; 
+    }
+    #theFunk button{
+        font-size: 16px;
+        border-radius: 8px;
+        padding: 5px;
+    }
+}
