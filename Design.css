@@ -1,7 +1,5 @@
-
-
 .vers-1 > div{
-    background-color: blue;
+    background-color: url("Images/WebLayer/7.png");
     background-repeat: repeat;
     background-size: 50%;
     text-align: center;
