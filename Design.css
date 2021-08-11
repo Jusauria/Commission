@@ -1,5 +1,5 @@
 body{
-    margin: none;
+    margin: 0px;
 }
 .vers-1 > div{
     background-image: url("Images/WebLayer/7.png");
@@ -109,10 +109,6 @@ a:hover{
     border-radius: 8px;
     padding: 5px;
 }
-#theFunk a{
-    margin-left: 5px;
-    margin-right: 5px;
-}
 #backUp{
     font-size: 25px;
     position: fixed;
@@ -171,10 +167,11 @@ ul{
         height: 200px; 
     }
     #theFunk button{
-        font-size: 8px;
+        font-size: 9px;
         border-radius: 4px;
         padding-right: 0px;
         padding-left: 0px;
+        display: inline;
 
     }
 }
@@ -188,10 +185,7 @@ ul{
         border-radius: 4px;
         padding-right: 0px;
         padding-left: 0px;
-
-    }
-    
-    
+    }  
 }
 @media only screen and (min-width: 370px) {
     /* For mobile phones: */
